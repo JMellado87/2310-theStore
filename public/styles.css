@@ -1,0 +1,49 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    padding: 1rem;
+    justify-content: space-evenly;
+    background-color: rgb(228, 225, 225);
+    border-radius: 4rem 4rem 4rem 4rem;
+
+}
+
+body {
+    background-color: rgb(207, 116, 116);
+}
+.welcome{
+    align-content: center;
+    text-align: center;
+}
+.button {
+    margin: 5px;
+    padding: 2px;
+    width: fit-content;
+} 
+.span{
+    margin: 2px;
+    padding: 2px;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.loginForm > * {
+    margin: 1rem;
+}
+
+.productContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.productPictures {
+    width: 200px;
+    height: 300px;
+}
